@@ -1,0 +1,226 @@
+{
+  "id": "8801f1f1-ff77-44ad-9ce8-1a12a3a2d3d5",
+  "version": "2.0",
+  "name": "1",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "519e09ba-9fd1-4d22-ade1-e292f419587f",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "f979155c-f06f-4918-a72d-314a3d2b3700",
+    "name": "1",
+    "commands": [{
+      "id": "f3806e9f-ecfa-430e-8b17-9f0fe68f141e",
+      "comment": "",
+      "command": "open",
+      "target": "/selenium-ide/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4024d03d-894a-4a04-8ef3-b87a683b3a86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1298x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d57d50b0-400a-4dd5-87ca-47e9de059f7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fixedHeaderContainer",
+      "targets": [
+        ["css=.fixedHeaderContainer", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ac7dbae-46d0-43fe-ae71-fae31ad9a88b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Справка",
+      "targets": [
+        ["linkText=Справка", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Справка')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/selenium-ide/help')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Справка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eb8d38c-e130-4d82-81ae-4aee8dc51e88",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Нужна помощь?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e25dce-4cbe-46f4-b412-e5c1dc5e1676",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Нужна помощь?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4fe43d-a71d-465f-ac16-d1e0b89fad7b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Нужна помощь?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40293ad4-3b0f-4c05-88c4-b62d74ebf047",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Нужна помощь?')]", "xpath:innerText"]
+      ],
+      "value": "Нужна помощь?"
+    }]
+  }, {
+    "id": "723111b1-89f9-406b-a4dd-37e2f30a3ccb",
+    "name": "2",
+    "commands": [{
+      "id": "e640a68a-6e65-422a-bf89-949ecebc654c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82cae2f7-a647-4877-be17-415015b837d6",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "title"
+    }, {
+      "id": "9f90614a-bd8f-48fd-b225-c08715b36a99",
+      "comment": "",
+      "command": "if",
+      "target": "${title}=\"Selenium__\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dddc9cf9-d09a-4abe-9e9a-f68419e5775d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.selenium.dev/selenium-ide/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffd552f2-3355-438f-97ef-f5b4074ec98a",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95073138-6f3d-4334-8858-33bff31d64f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1298x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26a31816-59fb-421b-b5d9-1ddf744e547e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Справка",
+      "targets": [
+        ["linkText=Справка", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Справка')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/selenium-ide/help')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Справка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce08be1d-8f3d-4025-9afa-eb21dc08214a",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Нужна помощь?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2542e03a-a128-45ff-a7d4-be244e1f5fab",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Нужна помощь?')]", "xpath:innerText"]
+      ],
+      "value": "Нужна помощь?"
+    }, {
+      "id": "e5f82507-971e-48ca-9aaa-beadd1e755eb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "de151c9d-f78d-4fb5-b9ef-06002b18c0a2",
+    "name": "__ - чтобы условие if не выполнялось",
+    "commands": [{
+      "id": "92fdb3ef-f8c0-44e7-8f4b-68e3e0dfa28a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03e34a9d-2a42-4ce0-8ddd-43185164c157",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1300x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a9319ea-5102-46e3-8f08-49439d2fcf08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selenium-webdriver:nth-child(1)",
+      "targets": [
+        ["css=.selenium-webdriver:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Подробнее')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/documentation/webdriver/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c196fa8-4df9-4570-97e8-cf8bc635a5fd",
+    "name": "test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f979155c-f06f-4918-a72d-314a3d2b3700", "723111b1-89f9-406b-a4dd-37e2f30a3ccb", "de151c9d-f78d-4fb5-b9ef-06002b18c0a2"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}
